@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes">
     <title>Typing Speed Test</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <main>
@@ -13,8 +14,21 @@
             Typing Speed Test
         </h1>
         <div id="header">
-            <div id="info"></div>
+            <div id="info">
+                <!-- Timer will be inserted here -->
+            </div>
             <div id="buttons">
+                <select id="timerSelect">
+                    <option value="30">30 seconds</option>
+                    <option value="45">45 seconds</option>
+                    <option value="60">1 minute</option>
+                    <option value="120">2 minutes</option>
+                    <option value="300">5 minutes</option>
+                    <option value="600">10 minutes</option>
+                    <option value="900">15 minutes</option>
+                    <option value="1800">30 minutes</option>
+                    <option value="3600">1 hour</option>
+                </select>
                 <button id="newGameBtn">New game</button>
             </div>
         </div>
