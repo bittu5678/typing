@@ -127,3 +127,68 @@ div.word {
   display: none;
 }
 
+#timerSelect {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: #2c3e50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#timerSelect:hover {
+  border-color: #888;
+}
+
+#timerSelect:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.timer-select {
+    background: none;
+    border: none;
+    color: #f1c40f;  /* Yellow color */
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.timer-select:focus {
+    outline: none;
+}
+
+.timer-select option {
+    background: #2c3e50;  /* Dark background */
+    color: #f1c40f;
+}
+
+.timer-display {
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.results {
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+}
+
